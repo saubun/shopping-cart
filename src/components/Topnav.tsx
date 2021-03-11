@@ -8,7 +8,7 @@ export default function Topnav() {
 
 	return (
 		<Navbar bg="primary" variant="dark" expand="lg">
-			<Navbar.Brand>Hello World</Navbar.Brand>
+			<Navbar.Brand>Egg Cart</Navbar.Brand>
 			<Navbar.Toggle />
 			<Navbar.Collapse className="responsive-navbar-nav">
 				<Nav className="mr-auto">

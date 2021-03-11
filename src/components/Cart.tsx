@@ -30,7 +30,7 @@ export default function Cart() {
 		};
 
 		// Makes sure we're not just sending empty strings
-		if (itemToAdd.length > 0) {
+		if (itemToAdd.length > 0 && itemPrice.length > 0) {
 			setItems([...items, newItem]);
 		}
 
